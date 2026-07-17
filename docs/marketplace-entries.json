@@ -6,7 +6,7 @@
     "source": {
       "source": "url",
       "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
-      "sha": "f4742a600f722910ce106dd11228647ef377f1fa",
+      "sha": "45853fa44766365b100b929073e05ddd6735e122",
       "path": "plugins/brandmd"
     },
     "homepage": "https://caplifi.com/build/brandmd/",
@@ -26,7 +26,7 @@
     "source": {
       "source": "url",
       "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
-      "sha": "f4742a600f722910ce106dd11228647ef377f1fa",
+      "sha": "45853fa44766365b100b929073e05ddd6735e122",
       "path": "plugins/hbi"
     },
     "homepage": "https://eclecticventures.net/hbi/",
@@ -47,7 +47,7 @@
     "source": {
       "source": "url",
       "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
-      "sha": "f4742a600f722910ce106dd11228647ef377f1fa",
+      "sha": "45853fa44766365b100b929073e05ddd6735e122",
       "path": "plugins/slopmd"
     },
     "homepage": "https://eclecticventures.net/slopmd/",
@@ -67,7 +67,7 @@
     "source": {
       "source": "url",
       "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
-      "sha": "f4742a600f722910ce106dd11228647ef377f1fa",
+      "sha": "45853fa44766365b100b929073e05ddd6735e122",
       "path": "plugins/caplifi-approve"
     },
     "homepage": "https://caplifi.com/approve/",
