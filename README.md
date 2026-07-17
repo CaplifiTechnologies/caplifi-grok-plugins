@@ -39,6 +39,22 @@ grok plugin install CaplifiTechnologies/caplifi-grok-plugins#plugins/brandmd --t
 
 Marketplace listing (xAI official catalog) is a **separate PR** to `xai-org/plugin-marketplace` — see [docs/MARKETPLACE.md](docs/MARKETPLACE.md).
 
+## Install (Claude Code)
+
+This repo is also a Claude Code plugin marketplace (`.claude-plugin/marketplace.json`):
+
+```
+/plugin marketplace add CaplifiTechnologies/caplifi-grok-plugins
+/plugin install brandmd@caplifi
+/plugin install hbi@caplifi
+/plugin install slopmd@caplifi
+/plugin install caplifi-approve@caplifi
+```
+
+Skills and slash commands are shared between harnesses — `skills/*/SKILL.md` is the single source of truth; the per-harness manifests (`.grok-plugin/`, `.claude-plugin/`) are kept byte-identical by `scripts/selftest.sh`.
+
+**Install doctrine:** no `curl | bash`, no postinstall, no network tools. Pin by tag/SHA, verify checksums on release zips. The same rule Caplifi Approve asks of your agents, applied to our own artifacts.
+
 ## License
 
 Apache-2.0 — see [LICENSE](LICENSE). Each open standard has its own stewardship page; this repo packages agent playbooks, not exclusive ownership of the ideas.

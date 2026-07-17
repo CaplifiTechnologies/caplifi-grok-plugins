@@ -1,0 +1,33 @@
+{
+  "name": "caplifi",
+  "owner": {
+    "name": "Caplifi Technologies",
+    "url": "https://caplifi.com"
+  },
+  "metadata": {
+    "description": "Caplifi / Eclectic Ventures open agent standards: BRAND.md, HBI, SLOP.md, Caplifi Approve.",
+    "version": "0.1.1"
+  },
+  "plugins": [
+    {
+      "name": "brandmd",
+      "source": "./plugins/brandmd",
+      "description": "BRAND.md open brand standard for agents: apply core brand under 600 tokens, load deeper files on demand, audit repo conformance."
+    },
+    {
+      "name": "hbi",
+      "source": "./plugins/hbi",
+      "description": "Half-Baked Idea (HBI) open package format: init packages, advisory IP triage posture, disclosure gate discipline, and local conformance validation."
+    },
+    {
+      "name": "slopmd",
+      "source": "./plugins/slopmd",
+      "description": "SLOP.md open agent handoff envelopes plus INSTIGATE (execute) vs HANDOFF (discuss) document contracts for multi-agent work."
+    },
+    {
+      "name": "caplifi-approve",
+      "source": "./plugins/caplifi-approve",
+      "description": "Caplifi Approve open contract (headgate.approve.v1): agents propose; humans approve irreversible access and execute work from a phone seat."
+    }
+  ]
+}

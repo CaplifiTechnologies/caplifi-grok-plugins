@@ -1,0 +1,12 @@
+{
+  "name": "caplifi-approve",
+  "version": "0.1.0",
+  "description": "Caplifi Approve open contract (headgate.approve.v1): agents propose; humans approve irreversible access and execute work from a phone seat.",
+  "author": {
+    "name": "Caplifi Technologies",
+    "url": "https://caplifi.com"
+  },
+  "homepage": "https://caplifi.com/approve/",
+  "license": "Apache-2.0",
+  "keywords": ["caplifi-approve", "headgate.approve", "caplifi approve"]
+}

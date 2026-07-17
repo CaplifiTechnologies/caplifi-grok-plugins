@@ -7,7 +7,7 @@ fail=0
 
 echo "== structure =="
 for p in brandmd hbi slopmd caplifi-approve; do
-  for f in "plugins/$p/plugin.json" "plugins/$p/.grok-plugin/plugin.json" "plugins/$p/README.md"; do
+  for f in "plugins/$p/plugin.json" "plugins/$p/.grok-plugin/plugin.json" "plugins/$p/.claude-plugin/plugin.json" "plugins/$p/README.md"; do
     if [[ ! -f "$f" ]]; then echo "MISSING $f"; fail=1; fi
   done
   if ! find "plugins/$p/skills" -name SKILL.md | grep -q .; then
@@ -15,8 +15,17 @@ for p in brandmd hbi slopmd caplifi-approve; do
   fi
 done
 
-echo "== no house paths in plugins =="
-if rg -n '~/ALMI|matthewgallegos|/Users/matthew|127\.0\.0\.1:8|localhost:8' plugins/ --glob '!**/tools/**' 2>/dev/null; then
+echo "== manifests in sync (plugin.json == .grok-plugin == .claude-plugin) =="
+for p in brandmd hbi slopmd caplifi-approve; do
+  if ! cmp -s "plugins/$p/plugin.json" "plugins/$p/.grok-plugin/plugin.json" || \
+     ! cmp -s "plugins/$p/plugin.json" "plugins/$p/.claude-plugin/plugin.json"; then
+    echo "MANIFEST DRIFT in $p"; fail=1
+  fi
+done
+python3 -c "import json; json.load(open('.claude-plugin/marketplace.json'))" || { echo "BAD marketplace.json"; fail=1; }
+
+echo "== no house paths in plugins (tools/ included) =="
+if rg -n '~/ALMI|matthewgallegos|/Users/matthew|127\.0\.0\.1:8|localhost:8' plugins/ 2>/dev/null; then
   echo "HOUSE PATH LEAK"
   fail=1
 else

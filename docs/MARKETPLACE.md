@@ -5,9 +5,10 @@ Official catalog: https://github.com/xai-org/plugin-marketplace
 ## Prerequisites
 
 1. This monorepo is **public** on `CaplifiTechnologies/caplifi-grok-plugins`
-2. Each plugin has a valid `.grok-plugin/plugin.json` + `plugin.json`
-3. Remote source pins a **full 40-char commit SHA**
+2. Each plugin has a valid `.grok-plugin/plugin.json` + `plugin.json` (+ `.claude-plugin/plugin.json`, kept byte-identical — selftest enforces)
+3. Remote source pins a **full 40-char commit SHA** — always a **tag's** SHA, never raw HEAD (see `scripts/release.sh`; pinning HEAD chases itself because the pin commit moves HEAD)
 4. Keywords/domains are **brand-scoped** (not generic `brand`, `deploy`, `api`)
+5. `scripts/check_urls.sh` passes (every homepage/spec URL live, no redirect loops)
 
 ## Catalog entries (draft)
 
@@ -21,7 +22,7 @@ Add four entries under `.grok-plugin/marketplace.json` in a fork of the marketpl
   "source": {
     "source": "url",
     "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
-    "sha": "f4742a600f722910ce106dd11228647ef377f1fa",
+    "sha": "adf47574768b491d8f0c0fb2d120dec18b1444bf",
     "path": "plugins/brandmd"
   },
   "homepage": "https://caplifi.com/build/brandmd/",
