@@ -21,7 +21,7 @@ Add four entries under `.grok-plugin/marketplace.json` in a fork of the marketpl
   "source": {
     "source": "url",
     "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
-    "sha": "e24fa481c9950fe31f5ade6d63abb8d1bd153859",
+    "sha": "f4742a600f722910ce106dd11228647ef377f1fa",
     "path": "plugins/brandmd"
   },
   "homepage": "https://caplifi.com/build/brandmd/",
