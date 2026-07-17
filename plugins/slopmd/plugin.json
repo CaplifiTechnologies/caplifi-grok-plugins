@@ -1,0 +1,12 @@
+{
+  "name": "slopmd",
+  "version": "0.1.0",
+  "description": "SLOP.md open agent handoff envelopes plus INSTIGATE (execute) vs HANDOFF (discuss) document contracts for multi-agent work.",
+  "author": {
+    "name": "Caplifi Technologies",
+    "url": "https://caplifi.com"
+  },
+  "homepage": "https://eclecticventures.net/slopmd/",
+  "license": "Apache-2.0",
+  "keywords": ["slopmd", "slop.md", "instigate handoff"]
+}

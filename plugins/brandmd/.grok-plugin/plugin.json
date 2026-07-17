@@ -1,0 +1,12 @@
+{
+  "name": "brandmd",
+  "version": "0.1.0",
+  "description": "BRAND.md open brand standard for agents: apply core brand under 600 tokens, load deeper files on demand, audit repo conformance.",
+  "author": {
+    "name": "Caplifi Technologies",
+    "url": "https://caplifi.com"
+  },
+  "homepage": "https://caplifi.com/build/brandmd/",
+  "license": "Apache-2.0",
+  "keywords": ["brandmd", "brand.md", "caplifi brandmd"]
+}

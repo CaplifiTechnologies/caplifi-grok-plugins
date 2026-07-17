@@ -1,0 +1,12 @@
+{
+  "name": "hbi",
+  "version": "0.1.0",
+  "description": "Half-Baked Idea (HBI) open package format: init packages, advisory IP triage posture, disclosure gate discipline, and local conformance validation.",
+  "author": {
+    "name": "Caplifi Technologies",
+    "url": "https://caplifi.com"
+  },
+  "homepage": "https://eclecticventures.net/hbi/",
+  "license": "Apache-2.0",
+  "keywords": ["hbi", "half-baked idea", "hbi-standard"]
+}
