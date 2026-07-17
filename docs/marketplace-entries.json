@@ -1,0 +1,83 @@
+[
+  {
+    "name": "brandmd",
+    "description": "BRAND.md open brand standard for agents: apply core brand under 600 tokens, load deeper files on demand, audit repo conformance.",
+    "category": "development",
+    "source": {
+      "source": "url",
+      "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
+      "sha": "e24fa481c9950fe31f5ade6d63abb8d1bd153859",
+      "path": "plugins/brandmd"
+    },
+    "homepage": "https://caplifi.com/build/brandmd/",
+    "keywords": [
+      "brandmd",
+      "brand.md",
+      "caplifi brandmd"
+    ],
+    "domains": [
+      "caplifi.com"
+    ]
+  },
+  {
+    "name": "hbi",
+    "description": "Half-Baked Idea (HBI) open package format: init packages, advisory IP triage, disclosure gate discipline, local conformance validation.",
+    "category": "development",
+    "source": {
+      "source": "url",
+      "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
+      "sha": "e24fa481c9950fe31f5ade6d63abb8d1bd153859",
+      "path": "plugins/hbi"
+    },
+    "homepage": "https://eclecticventures.net/hbi/",
+    "keywords": [
+      "hbi",
+      "half-baked idea",
+      "hbi-standard"
+    ],
+    "domains": [
+      "eclecticventures.net",
+      "caplifi.com"
+    ]
+  },
+  {
+    "name": "slopmd",
+    "description": "SLOP.md open agent handoff envelopes plus INSTIGATE (execute) vs HANDOFF (discuss) document contracts.",
+    "category": "development",
+    "source": {
+      "source": "url",
+      "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
+      "sha": "e24fa481c9950fe31f5ade6d63abb8d1bd153859",
+      "path": "plugins/slopmd"
+    },
+    "homepage": "https://eclecticventures.net/slopmd/",
+    "keywords": [
+      "slopmd",
+      "slop.md",
+      "instigate handoff"
+    ],
+    "domains": [
+      "eclecticventures.net"
+    ]
+  },
+  {
+    "name": "caplifi-approve",
+    "description": "Caplifi Approve open contract (headgate.approve.v1): agents propose; humans approve irreversible access and execute work.",
+    "category": "development",
+    "source": {
+      "source": "url",
+      "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
+      "sha": "e24fa481c9950fe31f5ade6d63abb8d1bd153859",
+      "path": "plugins/caplifi-approve"
+    },
+    "homepage": "https://caplifi.com/approve/",
+    "keywords": [
+      "caplifi-approve",
+      "headgate.approve",
+      "caplifi approve"
+    ],
+    "domains": [
+      "caplifi.com"
+    ]
+  }
+]
