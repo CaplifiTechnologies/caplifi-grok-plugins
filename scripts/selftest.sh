@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Local self-test for Caplifi Grok plugins monorepo
+# Local self-test for the Caplifi agent plugins monorepo
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"

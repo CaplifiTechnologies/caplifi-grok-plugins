@@ -5,7 +5,7 @@
     "category": "development",
     "source": {
       "source": "url",
-      "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
+      "url": "https://github.com/CaplifiTechnologies/caplifi-agent-plugins.git",
       "sha": "ea415658636f34f8c7e7d6d45d2c7e30d2be4a6a",
       "path": "plugins/brandmd"
     },
@@ -25,7 +25,7 @@
     "category": "development",
     "source": {
       "source": "url",
-      "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
+      "url": "https://github.com/CaplifiTechnologies/caplifi-agent-plugins.git",
       "sha": "ea415658636f34f8c7e7d6d45d2c7e30d2be4a6a",
       "path": "plugins/hbi"
     },
@@ -46,7 +46,7 @@
     "category": "development",
     "source": {
       "source": "url",
-      "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
+      "url": "https://github.com/CaplifiTechnologies/caplifi-agent-plugins.git",
       "sha": "ea415658636f34f8c7e7d6d45d2c7e30d2be4a6a",
       "path": "plugins/slopmd"
     },
@@ -66,7 +66,7 @@
     "category": "development",
     "source": {
       "source": "url",
-      "url": "https://github.com/CaplifiTechnologies/caplifi-grok-plugins.git",
+      "url": "https://github.com/CaplifiTechnologies/caplifi-agent-plugins.git",
       "sha": "ea415658636f34f8c7e7d6d45d2c7e30d2be4a6a",
       "path": "plugins/caplifi-approve"
     },

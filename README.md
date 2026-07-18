@@ -1,6 +1,6 @@
-# Caplifi Grok Build Plugins
+# Caplifi Agent Plugins
 
-**Stranger-facing** official plugins for [Grok Build](https://x.ai) — open standards and contracts from Caplifi Technologies / Eclectic Ventures.
+**Stranger-facing** official agent plugins for Grok Build and Claude Code — open standards and contracts from Caplifi Technologies / Eclectic Ventures.
 
 | Plugin | Product | Install path |
 |--------|---------|--------------|
@@ -34,7 +34,7 @@ grok plugin details brandmd
 Or after GitHub publish:
 
 ```bash
-grok plugin install CaplifiTechnologies/caplifi-grok-plugins#plugins/brandmd --trust
+grok plugin install CaplifiTechnologies/caplifi-agent-plugins#plugins/brandmd --trust
 ```
 
 Marketplace listing (xAI official catalog) is a **separate PR** to `xai-org/plugin-marketplace` — see [docs/MARKETPLACE.md](docs/MARKETPLACE.md).
@@ -44,7 +44,7 @@ Marketplace listing (xAI official catalog) is a **separate PR** to `xai-org/plug
 This repo is also a Claude Code plugin marketplace (`.claude-plugin/marketplace.json`):
 
 ```
-/plugin marketplace add CaplifiTechnologies/caplifi-grok-plugins
+/plugin marketplace add CaplifiTechnologies/caplifi-agent-plugins
 /plugin install brandmd@caplifi
 /plugin install hbi@caplifi
 /plugin install slopmd@caplifi
